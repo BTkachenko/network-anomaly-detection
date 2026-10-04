@@ -1,0 +1,7 @@
+algorithm,criterion,config_name,precision,recall,f1,fpr,parameters
+birch_sourceaware,max_f1,birch_sourceaware_p93,0.8527397260273972,0.5335714285714286,0.656414762741652,0.1075,"threshold=0.75, branching_factor=50, local_percentile=94.0, global_percentile=93.0"
+birch_sourceaware,best_recall_fpr_le_0.10,birch_sourceaware_p94,0.8622605816978008,0.5209285714285714,0.6494790275180337,0.09708333333333333,"threshold=0.75, branching_factor=50, local_percentile=94.0, global_percentile=94.0"
+dbscan_sourceaware,max_f1,dbscan_sourceaware_p90,0.8426495614609242,0.4597857142857143,0.5949443135080179,0.10016666666666667,"eps=0.38, min_samples=8, global_percentile=90.0"
+dbscan_sourceaware,best_recall_fpr_le_0.10,dbscan_sourceaware_p92,0.8498920086393088,0.3935,0.5379357484620643,0.08108333333333333,"eps=0.38, min_samples=8, global_percentile=92.0"
+kmeans_sourceaware,max_f1,kmeans_sourceaware_p90,0.8395361380798274,0.44471428571428573,0.5814344415390362,0.09916666666666667,"total_k=1024, local_percentile=90.0, global_percentile=90.0"
+kmeans_sourceaware,best_recall_fpr_le_0.10,kmeans_sourceaware_p90,0.8395361380798274,0.44471428571428573,0.5814344415390362,0.09916666666666667,"total_k=1024, local_percentile=90.0, global_percentile=90.0"

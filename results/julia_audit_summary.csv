@@ -1,0 +1,6 @@
+item,value
+csv_files,132
+rows_total,27810004
+benign_rows,398330
+attack_rows,27411674
+bad_headers,5

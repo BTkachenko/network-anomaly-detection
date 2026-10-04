@@ -1,0 +1,12 @@
+algorithm,criterion,config_name,precision,recall,f1,fpr,parameters
+birch,max_f1,birch_refined_t0.75_p91,0.8109632783395423,0.5442142857142858,0.6513357555033127,0.148,"threshold=0.75, branching_factor=50, score_percentile=91.0"
+birch,best_recall_fpr_le_0.10,birch_refined_t1.15_p94,0.8583972297798664,0.4957857142857143,0.6285429683962691,0.09541666666666666,"threshold=1.15, branching_factor=50, score_percentile=94.0"
+birch,best_recall_fpr_le_0.15,birch_refined_t0.75_p91,0.8109632783395423,0.5442142857142858,0.6513357555033127,0.148,"threshold=0.75, branching_factor=50, score_percentile=91.0"
+birch,best_recall_fpr_le_0.20,birch_refined_t0.75_p91,0.8109632783395423,0.5442142857142858,0.6513357555033127,0.148,"threshold=0.75, branching_factor=50, score_percentile=91.0"
+dbscan,max_f1,dbscan_refined_eps0.26_m12,0.7709532949456174,0.6025,0.6763962952568061,0.20883333333333334,"eps=0.260000, min_samples=12, eps_percentile=manual_local"
+dbscan,best_recall_fpr_le_0.15,dbscan_refined_eps0.38_m8,0.813550251525206,0.5429285714285714,0.6512444844278799,0.14516666666666667,"eps=0.380000, min_samples=8, eps_percentile=manual_local"
+dbscan,best_recall_fpr_le_0.20,dbscan_refined_eps0.26_m10,0.7822717822717823,0.5912857142857143,0.6735009356439672,0.192,"eps=0.260000, min_samples=10, eps_percentile=manual_local"
+gmm,max_f1,gmm_refined_k32_tied_p10,0.7834995466908432,0.30864285714285716,0.4428388419164745,0.0995,"n_components=32, covariance_type=tied, reg_covar=1e-06, lower_percentile=10.0"
+gmm,best_recall_fpr_le_0.10,gmm_refined_k32_tied_p10,0.7834995466908432,0.30864285714285716,0.4428388419164745,0.0995,"n_components=32, covariance_type=tied, reg_covar=1e-06, lower_percentile=10.0"
+gmm,best_recall_fpr_le_0.15,gmm_refined_k32_tied_p10,0.7834995466908432,0.30864285714285716,0.4428388419164745,0.0995,"n_components=32, covariance_type=tied, reg_covar=1e-06, lower_percentile=10.0"
+gmm,best_recall_fpr_le_0.20,gmm_refined_k32_tied_p10,0.7834995466908432,0.30864285714285716,0.4428388419164745,0.0995,"n_components=32, covariance_type=tied, reg_covar=1e-06, lower_percentile=10.0"

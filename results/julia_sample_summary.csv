@@ -1,0 +1,12 @@
+item,value
+train_benign_rows,30000
+eval_benign_rows,12000
+eval_attack_rows,14000
+train_eval_benign_overlap,0
+eval_attack_BruteForce,2000
+eval_attack_DDoS,2000
+eval_attack_DoS,2000
+eval_attack_Mirai,2000
+eval_attack_Recon,2000
+eval_attack_Spoofing,2000
+eval_attack_Web-Based,2000

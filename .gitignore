@@ -1,0 +1,24 @@
+# Downloaded data and local samples are not redistributed.
+/IoT-DIAD/
+/CICAPT-IIOT/
+/downloadbyScript/
+/samples/*
+!/samples/README.md
+/results/python_hdbscan_assignments.csv
+
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.env
+.env.*
+*.log
+*.aux
+*.out
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
